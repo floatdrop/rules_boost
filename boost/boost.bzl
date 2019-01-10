@@ -3,7 +3,6 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 include_pattern = "boost/%s/"
 
 hdrs_patterns = [
-    "boost/cast.hpp",
     "boost/%s.h",
     "boost/%s_fwd.h",
     "boost/%s.hpp",
