@@ -1164,6 +1164,7 @@ boost_library(
 
 boost_library(
     name = "range",
+    hdrs = ["boost/cast.hpp"],
     deps = [
         ":array",
         ":assert",
